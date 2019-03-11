@@ -12,7 +12,7 @@ keras <br />
 theano <br />**
 
 Here is how to run the scripts <br />
->python MESCNet.py < list of training normalized diffusion images> < list of training brain mask images > <number of microstructure meaasures to be estimated> < list of training microstructure 1 > ... < list of training microstructure N > < list of test normalized diffusion images > < list of test brain mask images > < output directory > <br />
+>python MESCNet.py < list of training normalized diffusion images> < list of training brain mask images > < number of microstructure meaasures to be estimated > < list of training microstructure 1 > ... < list of training microstructure N > < list of test normalized diffusion images > < list of test brain mask images > < output directory > <br />
 
 For example, <br />
 >python MESCNet.py dwis_training.txt masks_training.txt 3 icvfs_training.txt isos_training.txt ods_training.txt dwis_test.txt masks_test.txt output
