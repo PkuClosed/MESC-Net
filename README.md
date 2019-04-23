@@ -1,7 +1,7 @@
 # MESC-Net
 
 This is a python demo for the paper:<br />
-**Chuyang Ye et al., "A Deep Network for Tissue Microstructure Estimation Using Modified LSTM Units", under review in MedIA.** 
+**Chuyang Ye et al., "A Deep Network for Tissue Microstructure Estimation Using Modified LSTM Units", MedIA 2019.** 
 
 The demo includes both the training and test phase. Therefore, to run it, both the training and test data (which are images in the NIfTI format) should be prepared. The input diffusion signals should be normalized.
 
